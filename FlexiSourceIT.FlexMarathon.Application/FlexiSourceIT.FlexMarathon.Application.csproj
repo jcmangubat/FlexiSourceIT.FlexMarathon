@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Validators\**" />
+    <EmbeddedResource Remove="Models\Validators\**" />
+    <None Remove="Models\Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ApplicationSettings.cs" />
+    <Compile Remove="Models\CloudinaryCredentials.cs" />
+    <Compile Remove="Models\DropdownItem.cs" />
+    <Compile Remove="Models\EmailContact.cs" />
+    <Compile Remove="Models\FactPoints.cs" />
+    <Compile Remove="Models\ImageKitCredentials.cs" />
+    <Compile Remove="Models\OpenAICredentials.cs" />
+    <Compile Remove="Models\ServiceItem.cs" />
+    <Compile Remove="Models\SMTPSettings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFilterer.Generators" Version="3.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="SMEAppHouse.Core.Patterns.EF" Version="8.0.1" />
+    <PackageReference Include="SMEAppHouse.Core.Patterns.Repo" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlexiSourceIT.FlexMarathon.Domain\FlexiSourceIT.FlexMarathon.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Filters\" />
+  </ItemGroup>
+
+</Project>

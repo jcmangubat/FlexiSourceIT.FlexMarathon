@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlexiSourceIT.FlexMarathon.Application\FlexiSourceIT.FlexMarathon.Application.csproj" />
+    <ProjectReference Include="..\FlexiSourceIT.FlexMarathon.Domain\FlexiSourceIT.FlexMarathon.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

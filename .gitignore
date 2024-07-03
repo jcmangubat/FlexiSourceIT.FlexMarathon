@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FlexiSourceIT.FlexMarathon
+/FlexiSourceIT.FlexMarathon.API/bin
+/FlexiSourceIT.FlexMarathon.Application/bin
+/FlexiSourceIT.FlexMarathon.Domain/bin
+/FlexiSourceIT.FlexMarathon.Infrastructure/bin
+/FlexiSourceIT.FlexMarathon.Infrastructure.UnitTest/bin
+/FlexiSourceIT.FlexMarathon.Infrastructure.UnitTest/obj
+/FlexiSourceIT.FlexMarathon.Infrastructure/obj
+/FlexiSourceIT.FlexMarathon.Domain/obj
+/FlexiSourceIT.FlexMarathon.Application/obj
+/FlexiSourceIT.FlexMarathon.API/obj
